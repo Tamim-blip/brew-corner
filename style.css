@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 /*na section start*/
 .nav-container{
@@ -66,8 +67,9 @@ background-repeat: no-repeat;
 /*hero section end*/
 /* our story start*/
 .our-story-container{
-    background-color:
-    padding: 30px 0;
+    
+ padding: 30px 0;
+  
 }
 .our-story-section{
     display: flex;
@@ -99,7 +101,7 @@ padding: 30px;
 }
 /*our story section end*/
 
-
+/*our menu section start*/
 
 .our-menu-main{
      background-color:#F1E7D8;
@@ -118,7 +120,7 @@ padding: 30px;
 .our-menu-boxes{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
    
 }
 .our-menu-boxes div{
@@ -135,6 +137,64 @@ padding: 30px;
     font-weight: bold;
     padding-bottom: 40px;
 }
+.our-menu-boxes div img{
+    padding-bottom: 30px ;
+}
+.our-menu-boxes div .name{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.our-menu-boxes div .ditels{
+    color: #2E2622;
+    padding-bottom: 10;
+}
+.our-menu-boxes div .price{
+    font-weight: bold;
+    color: #E9B44C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/*our menu section end*/
+
+.why-us-section{
+      max-width: 1200px;
+    margin: 75px auto;
+     display: grid;
+   justify-content: center;
+  text-align: center;
+}
+.why-us-header{
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.why-us-header p{
+    padding-bottom: 15px;
+    color: #E9B44C;
+}
+.why-us-header h2{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.why-us-boxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.why-us-boxes img{
+ padding-bottom: 20px;
+}
+.why-us-boxes .name{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.why-us-boxes .ditels{
+    color: #2E2622;
+    padding-bottom: 15px;
+}
+
 
 
 
